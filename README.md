@@ -12,7 +12,7 @@ If you find SqueezeNet and Deep Compression useful in your research, please cons
     @article{DeepCompression,
       title={Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding},
       author={Han, Song and Mao, Huizi and Dally, William J},
-      journal={International Conference on Learning Representations (ICLR)},
+      journal={International Conference on Learning Representations (ICLR best paper award)},
       year={2016}
     }
 
