@@ -1,6 +1,7 @@
 # SqueezeNet-Deep-Compression
 This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but has the same accuracy as AlexNet. 
-There is an even smaller version which is only 470KB. It requires some effort to materialize since each weight is 6-bits.
+
+(There is an even smaller version which is only 470KB. It requires some effort to materialize since each weight is 6-bits.)
 
 # Usage
 
