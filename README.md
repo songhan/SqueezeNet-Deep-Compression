@@ -1,7 +1,7 @@
-# Intro:
+# SqueezeNet-Deep-Compression
 This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but has the same accuracy as AlexNet.
 
-# Usage:
+# Usage
 
     export CAFFE_ROOT=$your_caffe_root
 
@@ -11,7 +11,7 @@ This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but ha
 
     $CAFFE_ROOT/build/tools/caffe test --model=SqueezeNet_trainval.prototxt --weights=decompressed_SqueezeNet.caffemodel --iterations=1000 --gpu 0
 
-# Related SqueezeNet repo and paper:
+# Related SqueezeNet repo and paper
 [SqueezeNet](https://github.com/DeepScale/SqueezeNet)
 
 [SqueezeNet-Deep-Compression](https://github.com/songhan/SqueezeNet-Deep-Compression)
