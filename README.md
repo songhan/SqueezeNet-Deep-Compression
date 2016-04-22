@@ -1,6 +1,16 @@
 # Intro:
 This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but has the same accuracy as AlexNet.
 
+# Usage:
+
+    export CAFFE_ROOT=$your_caffe_root
+
+    python decode.py /ABSOLUTE_PATH_TO/SqueezeNet_deploy.prototxt /ABSOLUTE_PATH_TO/compressed_SqueezeNet.net /ABSOLUTE_PATH_TO/decompressed_SqueezeNet.caffemodel
+
+    note: decompressed_SqueezeNet.caffemodel is the output, can be any name.
+
+    $CAFFE_ROOT/build/tools/caffe test --model=SqueezeNet_trainval.prototxt --weights=decompressed_SqueezeNet.caffemodel --iterations=1000 --gpu 0
+
 # Related SqueezeNet repo and paper:
 [SqueezeNet](https://github.com/DeepScale/SqueezeNet)
 
@@ -43,17 +53,5 @@ If you find SqueezeNet and Deep Compression useful in your research, please cons
       journal={International Conference on Computer Architecture (ISCA)},
       year={2016}
     }
-
-
-# Usage:
-
-    export CAFFE_ROOT=$your_caffe_root
-
-    python decode.py /ABSOLUTE_PATH_TO/SqueezeNet_deploy.prototxt /ABSOLUTE_PATH_TO/compressed_SqueezeNet.net /ABSOLUTE_PATH_TO/decompressed_SqueezeNet.caffemodel
-
-    note: decompressed_SqueezeNet.caffemodel is the output, can be any name.
-
-    $CAFFE_ROOT/build/tools/caffe test --model=SqueezeNet_trainval.prototxt --weights=decompressed_SqueezeNet.caffemodel --iterations=1000 --gpu 0
-
 
 
