@@ -1,5 +1,5 @@
 # Intro:
-# This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but has the same accuracy as AlexNet.
+This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but has the same accuracy as AlexNet.
 
 # Related SqueezeNet repo and paper:
 [SqueezeNet](https://github.com/DeepScale/SqueezeNet)
