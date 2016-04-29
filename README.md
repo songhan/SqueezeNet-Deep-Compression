@@ -13,7 +13,7 @@ This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but ha
 
     $CAFFE_ROOT/build/tools/caffe test --model=SqueezeNet_trainval.prototxt --weights=decompressed_SqueezeNet.caffemodel --iterations=1000 --gpu 0
 
-# Related SqueezeNet repo and paper
+# Related SqueezeNet repo 
 [SqueezeNet](https://github.com/DeepScale/SqueezeNet)
 
 [SqueezeNet-Deep-Compression](https://github.com/songhan/SqueezeNet-Deep-Compression)
@@ -24,6 +24,12 @@ This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but ha
 
 [SqueezeNet-Residual](https://github.com/songhan/SqueezeNet-Residual)
 
+# Related Papers
+[Learning both Weights and Connections for Efficient Neural Network (NIPS'15)](http://arxiv.org/pdf/1506.02626v3.pdf)
+
+[Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding (ICLR'16, best paper award)](http://arxiv.org/pdf/1510.00149v5.pdf)
+
+[EIE: Efficient Inference Engine on Compressed Deep Neural Network (ISCA'16)](http://arxiv.org/pdf/1602.01528v1.pdf)
 
 If you find SqueezeNet and Deep Compression useful in your research, please consider citing the paper:
 
