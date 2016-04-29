@@ -25,6 +25,8 @@ This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but ha
 [SqueezeNet-Residual](https://github.com/songhan/SqueezeNet-Residual)
 
 # Related Papers
+[SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and< 0.5MB model size](http://arxiv.org/pdf/1602.07360v3.pdf)
+
 [Learning both Weights and Connections for Efficient Neural Network (NIPS'15)](http://arxiv.org/pdf/1506.02626v3.pdf)
 
 [Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding (ICLR'16, best paper award)](http://arxiv.org/pdf/1510.00149v5.pdf)
