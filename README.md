@@ -1,3 +1,13 @@
+- March 15, 2019: for our most updated work on model compression and acceleration, please reference: 
+
+	[ProxylessNAS: Direct Neural Architecture Search on Target Task and Hardware](https://arxiv.org/pdf/1812.00332.pdf) (ICLR’19)
+
+	[AMC: AutoML for Model Compression and Acceleration on Mobile Devices](https://arxiv.org/pdf/1802.03494.pdf) (ECCV’18)
+
+	[HAQ: Hardware-Aware Automated Quantization](https://arxiv.org/pdf/1811.08886.pdf)  (CVPR’19)
+	
+	[Defenstive Quantization](https://openreview.net/pdf?id=ryetZ20ctX) (ICLR'19)
+
 # SqueezeNet-Deep-Compression
 This is the 660KB compressed SqueezeNet, which is 363x smaller as AlexNet but has the same accuracy as AlexNet. 
 
